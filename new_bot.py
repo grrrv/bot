@@ -309,7 +309,7 @@ async def class_sch_show(update: Update, context):
     await place_command(update, class_name)
 
 def main():
-    TOKEN = "8136652485:AAEgjeIigIEgJMsrcys80uT-c6jCFBBQMrI" 
+    TOKEN = "" 
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
